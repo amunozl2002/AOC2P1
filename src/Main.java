@@ -31,39 +31,39 @@ public class Main {
                 case "A":                           // enemy rock vs:
                     switch (myOption) {
                         case "X":
-                            res += 4;                      //  my rock
+                            res += 3;                      //  lose
                             break;
                         case "Y":
-                            res += 8;                      //  my paper
+                            res += 4;                      //  draw
                             break;
                         case "Z":
-                            res += 3;                      //  my scissors
+                            res += 8;                      //  win
                             break;
                     }
                     break;
                 case "B":                            // enemy paper vs:
                     switch (myOption) {
                         case "X":
-                            res += 1;                      //  my rock
+                            res += 1;                      //  lose
                             break;
                         case "Y":
-                            res += 5;                      //  my paper
+                            res += 5;                      //  draw
                             break;
                         case "Z":
-                            res += 9;                      //  my scissors
+                            res += 9;                      //  win
                             break;
                     }
                     break;
                 case "C":                            // enemy scissors vs:
                     switch (myOption) {
                         case "X":
-                            res += 7;                      //  my rock
+                            res += 2;                      //  lose
                             break;
                         case "Y":
-                            res += 2;                      //  my paper
+                            res += 6;                      //  draw
                             break;
                         case "Z":
-                            res += 6;                      //  my scissors
+                            res += 7;                      //  win
                             break;
                     }
                     break;
